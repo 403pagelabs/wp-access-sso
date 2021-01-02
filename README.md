@@ -18,7 +18,7 @@ User not found in site database. Please contact your site administrator for acce
  - It is **VERY IMPORTANT** that you ensure only requests from Cloudflare IPs (and your server itself) are allowed connect to your Wordpress site when this plugin is activated. You can find the [list of Cloudflare IP Ranges here](https://www.cloudflare.com/en-gb/ips/).
 
 **TO INSTALL:**
-Place the `wp-access-sso/wp-access-sso.php` in /wp-content/plugins/ and activate.
+Place the `/wp-access-sso/wp-access-sso.php` in /wp-content/plugins/ and activate.
 There are no settings - it just works.
 
 **QUESTIONS/SUGGESTIONS?**

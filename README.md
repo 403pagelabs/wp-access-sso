@@ -16,6 +16,7 @@ User not found in site database. Please contact your site administrator for acce
 **IMPORTANT:**
  - This is not currently recommended on production as it has not been properly security audited.
  - It is **VERY IMPORTANT** that you ensure only requests from Cloudflare IPs (and your server itself) are allowed connect to your Wordpress site when this plugin is activated. You can find the [list of Cloudflare IP Ranges here](https://www.cloudflare.com/en-gb/ips/).
+ - Ensure that **Enable Binding Cookie** is enable in Cloudflare (Cloudflare for Teams -> Access -> Applications -> Settings -> Enable Binding Cookie) to protect against stolen authorization cookies within your org.
 
 **TO INSTALL:**
 Place the `/wp-access-sso/wp-access-sso.php` in /wp-content/plugins/ and activate.

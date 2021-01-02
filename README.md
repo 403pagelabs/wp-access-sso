@@ -1,4 +1,4 @@
-# WP Cloudflare Access SSO: wp-access-sso
+# [BETA] WP Cloudflare Access SSO: wp-access-sso
 A super simple way to allow a single sign on to your Wordpress site when using Cloudflare Access.
 
 **Ideal use case:**
